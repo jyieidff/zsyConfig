@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: config-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/jyieidff/zsyConfig
+          username: 625013913@qq.com
+          password: battlenetwow15
+server:
+  port: 1021
